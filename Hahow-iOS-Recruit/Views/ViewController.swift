@@ -8,6 +8,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import SnapKit
 
 class ViewController: UIViewController {
 
@@ -37,7 +38,7 @@ class ViewController: UIViewController {
 private extension ViewController {
 
     func setupUI() {
-
+        view.backgroundColor = .orange
     }
 }
 

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		65E9E1E7270C301A00DDEADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9E1E6270C301A00DDEADC /* AppDelegate.swift */; };
 		65E9E1E9270C301A00DDEADC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9E1E8270C301A00DDEADC /* SceneDelegate.swift */; };
-		65E9E1EE270C301A00DDEADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E9E1EC270C301A00DDEADC /* Main.storyboard */; };
 		65E9E1F0270C301B00DDEADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E9E1EF270C301B00DDEADC /* Assets.xcassets */; };
 		65E9E1F3270C301B00DDEADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E9E1F1270C301B00DDEADC /* LaunchScreen.storyboard */; };
 		65E9E1FE270C301B00DDEADC /* Hahow_iOS_RecruitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9E1FD270C301B00DDEADC /* Hahow_iOS_RecruitTests.swift */; };
@@ -44,7 +43,6 @@
 		65E9E1E3270C301A00DDEADC /* Hahow-iOS-Recruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hahow-iOS-Recruit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E9E1E6270C301A00DDEADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65E9E1E8270C301A00DDEADC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		65E9E1ED270C301A00DDEADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65E9E1EF270C301B00DDEADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65E9E1F2270C301B00DDEADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65E9E1F4270C301B00DDEADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -305,7 +303,6 @@
 			files = (
 				65E9E1F3270C301B00DDEADC /* LaunchScreen.storyboard in Resources */,
 				65E9E1F0270C301B00DDEADC /* Assets.xcassets in Resources */,
-				65E9E1EE270C301A00DDEADC /* Main.storyboard in Resources */,
 				65E9E217270C307D00DDEADC /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,14 +367,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		65E9E1EC270C301A00DDEADC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65E9E1ED270C301A00DDEADC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		65E9E1F1270C301B00DDEADC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
