@@ -14,12 +14,14 @@
 		65E9E1FE270C301B00DDEADC /* Hahow_iOS_RecruitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9E1FD270C301B00DDEADC /* Hahow_iOS_RecruitTests.swift */; };
 		65E9E209270C301B00DDEADC /* Hahow_iOS_RecruitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9E208270C301B00DDEADC /* Hahow_iOS_RecruitUITests.swift */; };
 		65E9E217270C307D00DDEADC /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 65E9E216270C307D00DDEADC /* data.json */; };
+		DAA9FFA8276E947300E4A429 /* CellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9FFA7276E947300E4A429 /* CellExtension.swift */; };
 		DADCF139276E85860064C204 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DADCF138276E85860064C204 /* RxSwift */; };
 		DADCF13B276E85860064C204 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = DADCF13A276E85860064C204 /* RxCocoa */; };
 		DADCF13D276E85860064C204 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = DADCF13C276E85860064C204 /* RxRelay */; };
 		DADCF143276E86260064C204 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DADCF142276E86260064C204 /* SnapKit */; };
 		DADCF153276E87D40064C204 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADCF150276E87D40064C204 /* ViewController.swift */; };
 		DADCF16A276E89780064C204 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADCF151276E87D40064C204 /* ViewModel.swift */; };
+		DADCF183276E8C440064C204 /* PrepareClassInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADCF182276E8C440064C204 /* PrepareClassInstance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +55,10 @@
 		65E9E208270C301B00DDEADC /* Hahow_iOS_RecruitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hahow_iOS_RecruitUITests.swift; sourceTree = "<group>"; };
 		65E9E20A270C301B00DDEADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65E9E216270C307D00DDEADC /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		DAA9FFA7276E947300E4A429 /* CellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellExtension.swift; sourceTree = "<group>"; };
 		DADCF150276E87D40064C204 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DADCF151276E87D40064C204 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		DADCF182276E8C440064C204 /* PrepareClassInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareClassInstance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +146,6 @@
 			children = (
 				65E9E1E6270C301A00DDEADC /* AppDelegate.swift */,
 				65E9E1E8270C301A00DDEADC /* SceneDelegate.swift */,
-				65E9E1EC270C301A00DDEADC /* Main.storyboard */,
 				65E9E1F1270C301B00DDEADC /* LaunchScreen.storyboard */,
 				65E9E1F4270C301B00DDEADC /* Info.plist */,
 			);
@@ -152,6 +155,8 @@
 		DADCF14B276E876A0064C204 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				DADCF1D7276E91710064C204 /* Extension */,
+				DADCF182276E8C440064C204 /* PrepareClassInstance.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -186,6 +191,14 @@
 				65E9E1EF270C301B00DDEADC /* Assets.xcassets */,
 			);
 			path = Resourses;
+			sourceTree = "<group>";
+		};
+		DADCF1D7276E91710064C204 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DAA9FFA7276E947300E4A429 /* CellExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +342,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				65E9E1E7270C301A00DDEADC /* AppDelegate.swift in Sources */,
+				DAA9FFA8276E947300E4A429 /* CellExtension.swift in Sources */,
+				DADCF183276E8C440064C204 /* PrepareClassInstance.swift in Sources */,
 				DADCF153276E87D40064C204 /* ViewController.swift in Sources */,
 				DADCF16A276E89780064C204 /* ViewModel.swift in Sources */,
 				65E9E1E9270C301A00DDEADC /* SceneDelegate.swift in Sources */,
