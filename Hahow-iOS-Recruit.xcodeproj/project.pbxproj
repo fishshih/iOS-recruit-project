@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		65E9E1E7270C301A00DDEADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9E1E6270C301A00DDEADC /* AppDelegate.swift */; };
 		65E9E1E9270C301A00DDEADC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9E1E8270C301A00DDEADC /* SceneDelegate.swift */; };
-		65E9E1EB270C301A00DDEADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9E1EA270C301A00DDEADC /* ViewController.swift */; };
 		65E9E1EE270C301A00DDEADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E9E1EC270C301A00DDEADC /* Main.storyboard */; };
 		65E9E1F0270C301B00DDEADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E9E1EF270C301B00DDEADC /* Assets.xcassets */; };
 		65E9E1F3270C301B00DDEADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E9E1F1270C301B00DDEADC /* LaunchScreen.storyboard */; };
 		65E9E1FE270C301B00DDEADC /* Hahow_iOS_RecruitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9E1FD270C301B00DDEADC /* Hahow_iOS_RecruitTests.swift */; };
 		65E9E209270C301B00DDEADC /* Hahow_iOS_RecruitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9E208270C301B00DDEADC /* Hahow_iOS_RecruitUITests.swift */; };
 		65E9E217270C307D00DDEADC /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 65E9E216270C307D00DDEADC /* data.json */; };
+		DADCF139276E85860064C204 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DADCF138276E85860064C204 /* RxSwift */; };
+		DADCF13B276E85860064C204 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = DADCF13A276E85860064C204 /* RxCocoa */; };
+		DADCF13D276E85860064C204 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = DADCF13C276E85860064C204 /* RxRelay */; };
+		DADCF143276E86260064C204 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DADCF142276E86260064C204 /* SnapKit */; };
+		DADCF153276E87D40064C204 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADCF150276E87D40064C204 /* ViewController.swift */; };
+		DADCF16A276E89780064C204 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADCF151276E87D40064C204 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		65E9E1E3270C301A00DDEADC /* Hahow-iOS-Recruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hahow-iOS-Recruit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E9E1E6270C301A00DDEADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65E9E1E8270C301A00DDEADC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		65E9E1EA270C301A00DDEADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65E9E1ED270C301A00DDEADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65E9E1EF270C301B00DDEADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65E9E1F2270C301B00DDEADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		65E9E208270C301B00DDEADC /* Hahow_iOS_RecruitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hahow_iOS_RecruitUITests.swift; sourceTree = "<group>"; };
 		65E9E20A270C301B00DDEADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65E9E216270C307D00DDEADC /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		DADCF150276E87D40064C204 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DADCF151276E87D40064C204 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADCF13D276E85860064C204 /* RxRelay in Frameworks */,
+				DADCF143276E86260064C204 /* SnapKit in Frameworks */,
+				DADCF13B276E85860064C204 /* RxCocoa in Frameworks */,
+				DADCF139276E85860064C204 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,14 +111,12 @@
 		65E9E1E5270C301A00DDEADC /* Hahow-iOS-Recruit */ = {
 			isa = PBXGroup;
 			children = (
-				65E9E216270C307D00DDEADC /* data.json */,
-				65E9E1E6270C301A00DDEADC /* AppDelegate.swift */,
-				65E9E1E8270C301A00DDEADC /* SceneDelegate.swift */,
-				65E9E1EA270C301A00DDEADC /* ViewController.swift */,
-				65E9E1EC270C301A00DDEADC /* Main.storyboard */,
-				65E9E1EF270C301B00DDEADC /* Assets.xcassets */,
-				65E9E1F1270C301B00DDEADC /* LaunchScreen.storyboard */,
-				65E9E1F4270C301B00DDEADC /* Info.plist */,
+				DADCF147276E872B0064C204 /* App */,
+				DADCF1B0276E8DE00064C204 /* Resourses */,
+				DADCF14E276E878A0064C204 /* ViewModels */,
+				DADCF14D276E87830064C204 /* Views */,
+				DADCF14C276E877B0064C204 /* Models */,
+				DADCF14B276E876A0064C204 /* Utilities */,
 			);
 			path = "Hahow-iOS-Recruit";
 			sourceTree = "<group>";
@@ -131,6 +139,57 @@
 			path = "Hahow-iOS-RecruitUITests";
 			sourceTree = "<group>";
 		};
+		DADCF147276E872B0064C204 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				65E9E1E6270C301A00DDEADC /* AppDelegate.swift */,
+				65E9E1E8270C301A00DDEADC /* SceneDelegate.swift */,
+				65E9E1EC270C301A00DDEADC /* Main.storyboard */,
+				65E9E1F1270C301B00DDEADC /* LaunchScreen.storyboard */,
+				65E9E1F4270C301B00DDEADC /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DADCF14B276E876A0064C204 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DADCF14C276E877B0064C204 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DADCF14D276E87830064C204 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DADCF150276E87D40064C204 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DADCF14E276E878A0064C204 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DADCF151276E87D40064C204 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DADCF1B0276E8DE00064C204 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				65E9E216270C307D00DDEADC /* data.json */,
+				65E9E1EF270C301B00DDEADC /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,6 +206,12 @@
 			dependencies = (
 			);
 			name = "Hahow-iOS-Recruit";
+			packageProductDependencies = (
+				DADCF138276E85860064C204 /* RxSwift */,
+				DADCF13A276E85860064C204 /* RxCocoa */,
+				DADCF13C276E85860064C204 /* RxRelay */,
+				DADCF142276E86260064C204 /* SnapKit */,
+			);
 			productName = "Hahow-iOS-Recruit";
 			productReference = 65E9E1E3270C301A00DDEADC /* Hahow-iOS-Recruit.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +283,10 @@
 				Base,
 			);
 			mainGroup = 65E9E1DA270C301A00DDEADC;
+			packageReferences = (
+				DADCF137276E85860064C204 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				DADCF141276E86260064C204 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 65E9E1E4270C301A00DDEADC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -262,8 +331,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65E9E1EB270C301A00DDEADC /* ViewController.swift in Sources */,
 				65E9E1E7270C301A00DDEADC /* AppDelegate.swift in Sources */,
+				DADCF153276E87D40064C204 /* ViewController.swift in Sources */,
+				DADCF16A276E89780064C204 /* ViewModel.swift in Sources */,
 				65E9E1E9270C301A00DDEADC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,7 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Hahow-iOS-Recruit/Info.plist";
+				INFOPLIST_FILE = "Hahow-iOS-Recruit/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,7 +529,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Hahow-iOS-Recruit/Info.plist";
+				INFOPLIST_FILE = "Hahow-iOS-Recruit/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,7 +548,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Hahow-iOS-RecruitTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,7 +569,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Hahow-iOS-RecruitTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -591,6 +661,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DADCF137276E85860064C204 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.0;
+			};
+		};
+		DADCF141276E86260064C204 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DADCF138276E85860064C204 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DADCF137276E85860064C204 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		DADCF13A276E85860064C204 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DADCF137276E85860064C204 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		DADCF13C276E85860064C204 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DADCF137276E85860064C204 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		DADCF142276E86260064C204 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DADCF141276E86260064C204 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 65E9E1DB270C301A00DDEADC /* Project object */;
 }
