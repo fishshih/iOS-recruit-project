@@ -13,7 +13,7 @@ import Kingfisher
 
 class CourseItemView: UIView {
 
-    // 透過 Style 控制單一課程元件的佈局
+    /// 課程元件之佈局風格
     enum Style {
         case large
         case small
@@ -23,6 +23,7 @@ class CourseItemView: UIView {
 
     static let minImageWidth = CGFloat(128)
 
+    /// 透過 Style 控制單一課程元件的佈局
     let style = BehaviorRelay<Style>(value: .small)
 
     // MARK: - Life cycle
@@ -103,6 +104,7 @@ private extension CourseItemView {
 
         imageView.snp.makeConstraints {
             $0.width.equalTo(imageView.snp.height).multipliedBy(1.75)
+            // 對 imageView 多增加一條約束，以方便佈置兩種 style
             imageViewWidthConstraint = $0.width.equalTo(Self.minImageWidth).constraint
         }
     }
@@ -144,11 +146,21 @@ private extension CourseItemView {
 
         switch style {
         case .large:
+
+            // 解除 imageView 寬度約束
+            // imageView 寬度將依照 stackView 設定
             imageViewWidthConstraint?.deactivate()
+
+            // 調整 objectStackView.axis 為 垂直，以符合 large 佈局
             objectStackView.axis = .vertical
 
         case .small:
+
+            // 啟用 imageView 寬度約束
+            // imageView 將被限制寬度，調整為小圖
             imageViewWidthConstraint?.activate()
+
+            // 調整 objectStackView.axis 為 水平，以符合 small 佈局
             objectStackView.axis = .horizontal
         }
     }
