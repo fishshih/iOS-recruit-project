@@ -17,6 +17,7 @@
 		DAA9FFA8276E947300E4A429 /* CellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9FFA7276E947300E4A429 /* CellExtension.swift */; };
 		DAA9FFB6276E956B00E4A429 /* CoursesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9FFB5276E956B00E4A429 /* CoursesDataModel.swift */; };
 		DAA9FFBB276E95A700E4A429 /* FileLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9FFBA276E95A700E4A429 /* FileLoader.swift */; };
+		DAA9FFC1276EA02000E4A429 /* CourseItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9FFC0276EA02000E4A429 /* CourseItemView.swift */; };
 		DADCF139276E85860064C204 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DADCF138276E85860064C204 /* RxSwift */; };
 		DADCF13B276E85860064C204 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = DADCF13A276E85860064C204 /* RxCocoa */; };
 		DADCF13D276E85860064C204 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = DADCF13C276E85860064C204 /* RxRelay */; };
@@ -60,6 +61,7 @@
 		DAA9FFA7276E947300E4A429 /* CellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellExtension.swift; sourceTree = "<group>"; };
 		DAA9FFB5276E956B00E4A429 /* CoursesDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesDataModel.swift; sourceTree = "<group>"; };
 		DAA9FFBA276E95A700E4A429 /* FileLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLoader.swift; sourceTree = "<group>"; };
+		DAA9FFC0276EA02000E4A429 /* CourseItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItemView.swift; sourceTree = "<group>"; };
 		DADCF150276E87D40064C204 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DADCF151276E87D40064C204 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		DADCF182276E8C440064C204 /* PrepareClassInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareClassInstance.swift; sourceTree = "<group>"; };
@@ -145,6 +147,14 @@
 			path = "Hahow-iOS-RecruitUITests";
 			sourceTree = "<group>";
 		};
+		DAA9FFBF276E9FD600E4A429 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				DAA9FFC0276EA02000E4A429 /* CourseItemView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
 		DADCF147276E872B0064C204 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +187,7 @@
 		DADCF14D276E87830064C204 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DAA9FFBF276E9FD600E4A429 /* Subviews */,
 				DADCF150276E87D40064C204 /* ViewController.swift */,
 			);
 			path = Views;
@@ -355,6 +366,7 @@
 				DADCF153276E87D40064C204 /* ViewController.swift in Sources */,
 				DADCF16A276E89780064C204 /* ViewModel.swift in Sources */,
 				65E9E1E9270C301A00DDEADC /* SceneDelegate.swift in Sources */,
+				DAA9FFC1276EA02000E4A429 /* CourseItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
