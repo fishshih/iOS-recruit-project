@@ -9,6 +9,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 import SnapKit
+import Kingfisher
 
 class CourseItemView: UIView {
 
@@ -157,7 +158,9 @@ extension CourseItemView {
 
     func set(imageUrl: String, title: String, name: String) {
 
-        // 處理照片
+        if let url = URL(string: imageUrl) {
+            imageView.kf.setImage(with: .network(url))
+        }
 
         titleLabel.text = title
         nameLabel.text = name
