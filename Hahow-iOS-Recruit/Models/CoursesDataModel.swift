@@ -21,10 +21,24 @@ struct CategoryItem: Codable {
 }
 
 enum Category: String, Codable {
-    case design = "design"
-    case language = "language"
-    case music = "music"
+
     case programming = "programming"
+    case language = "language"
+    case design = "design"
+    case music = "music"
+
+    var title: String {
+        switch self {
+        case .programming:
+            return "程式"
+        case .language:
+            return "語言"
+        case .design:
+            return "設計"
+        case .music:
+            return "音樂"
+        }
+    }
 }
 
 // MARK: - Course
