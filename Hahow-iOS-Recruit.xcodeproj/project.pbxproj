@@ -18,6 +18,7 @@
 		DAA9FFB6276E956B00E4A429 /* CoursesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9FFB5276E956B00E4A429 /* CoursesDataModel.swift */; };
 		DAA9FFBB276E95A700E4A429 /* FileLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9FFBA276E95A700E4A429 /* FileLoader.swift */; };
 		DAA9FFC1276EA02000E4A429 /* CourseItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9FFC0276EA02000E4A429 /* CourseItemView.swift */; };
+		DAA9FFDE276F41FF00E4A429 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DAA9FFDD276F41FF00E4A429 /* Kingfisher */; };
 		DADCF139276E85860064C204 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DADCF138276E85860064C204 /* RxSwift */; };
 		DADCF13B276E85860064C204 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = DADCF13A276E85860064C204 /* RxCocoa */; };
 		DADCF13D276E85860064C204 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = DADCF13C276E85860064C204 /* RxRelay */; };
@@ -76,6 +77,7 @@
 				DADCF143276E86260064C204 /* SnapKit in Frameworks */,
 				DADCF13B276E85860064C204 /* RxCocoa in Frameworks */,
 				DADCF139276E85860064C204 /* RxSwift in Frameworks */,
+				DAA9FFDE276F41FF00E4A429 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +241,7 @@
 				DADCF13A276E85860064C204 /* RxCocoa */,
 				DADCF13C276E85860064C204 /* RxRelay */,
 				DADCF142276E86260064C204 /* SnapKit */,
+				DAA9FFDD276F41FF00E4A429 /* Kingfisher */,
 			);
 			productName = "Hahow-iOS-Recruit";
 			productReference = 65E9E1E3270C301A00DDEADC /* Hahow-iOS-Recruit.app */;
@@ -314,6 +317,7 @@
 			packageReferences = (
 				DADCF137276E85860064C204 /* XCRemoteSwiftPackageReference "RxSwift" */,
 				DADCF141276E86260064C204 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				DAA9FFDC276F41FF00E4A429 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 65E9E1E4270C301A00DDEADC /* Products */;
 			projectDirPath = "";
@@ -687,6 +691,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		DAA9FFDC276F41FF00E4A429 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.2;
+			};
+		};
 		DADCF137276E85860064C204 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift";
@@ -706,6 +718,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DAA9FFDD276F41FF00E4A429 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAA9FFDC276F41FF00E4A429 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
 		DADCF138276E85860064C204 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DADCF137276E85860064C204 /* XCRemoteSwiftPackageReference "RxSwift" */;
