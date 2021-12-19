@@ -21,6 +21,8 @@ class CourseItemView: UIView {
 
     // MARK: - Property
 
+    static let minImageWidth = CGFloat(128)
+
     let style = BehaviorRelay<Style>(value: .small)
 
     // MARK: - Life cycle
@@ -65,7 +67,7 @@ class CourseItemView: UIView {
     }
 
     private let nameLabel = UILabel() --> {
-        $0.font = .systemFont(ofSize: 12, weight: .light)
+        $0.font = .systemFont(ofSize: 12, weight: .medium)
         $0.textColor = .gray
         $0.numberOfLines = 1
     }
@@ -101,7 +103,7 @@ private extension CourseItemView {
 
         imageView.snp.makeConstraints {
             $0.width.equalTo(imageView.snp.height).multipliedBy(1.75)
-            imageViewWidthConstraint = $0.width.equalTo(128).constraint
+            imageViewWidthConstraint = $0.width.equalTo(Self.minImageWidth).constraint
         }
     }
 
